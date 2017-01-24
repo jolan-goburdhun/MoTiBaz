@@ -26,15 +26,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="129dp" />
 
-    <Button
-        android:text="Go"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="115dp"
-        android:id="@+id/button" />
-
     <TextView
         android:text="login as advertiser"
         android:layout_width="wrap_content"
@@ -44,5 +35,13 @@
         android:id="@+id/text"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb_login_btn"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"></com.facebook.login.widget.LoginButton>
 
 </RelativeLayout>

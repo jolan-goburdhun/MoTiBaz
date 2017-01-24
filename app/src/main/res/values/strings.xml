@@ -6,4 +6,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_advertiser">advertiser</string>
+
+    <string name="facebook_app_id">2015658445327933</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
