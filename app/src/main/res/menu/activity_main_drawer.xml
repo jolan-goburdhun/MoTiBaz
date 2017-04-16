@@ -4,32 +4,21 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_layout"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="My Profile" />
+            android:icon="@drawable/map"
+            android:title="Locations of Interest" />
         <item
             android:id="@+id/nav_second_layout"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Settings" />
-        <item
-            android:id="@+id/nav_third_layout"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Help" />
-        <item
-            android:id="@+id/nav_fourth_layout"
-            android:title="About Us"/>
+            android:icon="@drawable/map"
+            android:title="All Locations" />
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Mo Ti Baz">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/about_us"
+                android:icon="@drawable/info"
+                android:title="About us" />
         </menu>
     </item>
 

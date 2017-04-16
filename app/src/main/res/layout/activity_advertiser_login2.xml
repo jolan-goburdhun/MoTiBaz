@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_advertiser_login"
+    android:id="@+id/activity_advertiser_login2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="jolan.example.com.navigationdrawer.advertiserLogin"
+    tools:context="jolan.example.com.navigationdrawer.advertiserLogin2"
     android:background="@drawable/background">
 
-
-    
     <LinearLayout
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
 
         <EditText
             android:layout_margin="15dp"
@@ -37,23 +33,22 @@
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        
+
         <Button
             android:layout_margin="15dp"
-            android:id="@+id/registerBtn"
-            android:text="Register"
+            android:id="@+id/signInBtn"
+            android:text="Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
 
-            android:id="@+id/registeredBtn"
-            android:text="Already registered? Sign in here"
+            android:id="@+id/signUpBtn"
+            android:text="Not registered? Sign up here"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-
 
 
 </RelativeLayout>

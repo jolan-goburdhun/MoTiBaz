@@ -5,10 +5,6 @@
     android:id="@+id/activity_launch"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="0dp"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
-    android:paddingTop="0dp"
     tools:context="jolan.example.com.navigationdrawer.launch">
 
     <ImageView
@@ -43,5 +39,7 @@
         android:layout_marginBottom="49dp"
         android:layout_above="@+id/text"
         android:layout_centerHorizontal="true"></com.facebook.login.widget.LoginButton>
+
+
 
 </RelativeLayout>

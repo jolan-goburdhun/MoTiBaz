@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801821867340",
+    "firebase_url": "https://mo-ti-baz.firebaseio.com",
+    "project_id": "mo-ti-baz",
+    "storage_bucket": "mo-ti-baz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801821867340:android:fb08fa54e116991d",
+        "android_client_info": {
+          "package_name": "jolan.example.com.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801821867340-dt8ec6cvek5a0smpossn4rkc0kpbm3rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jolan.example.com.navigationdrawer",
+            "certificate_hash": "e92c73745d29805798403b44831394b789350e92"
+          }
+        },
+        {
+          "client_id": "801821867340-bmdr4p6u32hd4d7httpp05bllimiiu9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuDqFdXO0XB9SNOTQLhtDaVBkHTmyRy9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801821867340-bmdr4p6u32hd4d7httpp05bllimiiu9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

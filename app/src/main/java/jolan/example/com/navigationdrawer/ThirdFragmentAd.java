@@ -19,6 +19,7 @@ public class ThirdFragmentAd extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.third_layout_ad, container, false);
+
         return view;
     }
 }
